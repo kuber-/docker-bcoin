@@ -1,7 +1,6 @@
 FROM node:8-slim
 
-ARG BCOIN_VERSION
-ENV BCOIN_VERSION=${BCOIN_VERSION} \
+ENV BCOIN_VERSION=tags/v1.0.0-beta.15 \
     BCOIN_REPO=https://github.com/bcoin-org/bcoin.git \
     BCOIN_DIR=/code/bcoin
 
